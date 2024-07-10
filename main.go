@@ -280,6 +280,7 @@ func listRecursive(dir string, currentLevel int, recursionLimit int) {
 		}
 	}
 }
+
 func help() {
 	fmt.Println("Available commands:")
 	fmt.Println("create, c - Create a new file")
